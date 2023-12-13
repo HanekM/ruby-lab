@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "12 розгніваних чоловіків",
+      "year": "1957",
+      "duration": "1h 36m",
+      "age_limit": "Approved",
+      "rating": 9.0,
+      "votes": 843000
+    },
+    {
+      "title": "Хороший, поганий, злий",
+      "year": "1966",
+      "duration": "2h 41m",
+      "age_limit": "Approved",
+      "rating": 8.8,
+      "votes": 796000
+    }
+  ],
+  "total_items": 2,
+  "average_rating": 8.9
+}

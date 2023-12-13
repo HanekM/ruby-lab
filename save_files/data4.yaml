@@ -1,0 +1,46 @@
+---
+:items:
+- :title: Список Шиндлера
+  :year: '1993'
+  :duration: 3h 15m
+  :age_limit: '16'
+  :rating: 9.0
+  :votes: 1000000
+- :title: Бійцівський клуб
+  :year: '1999'
+  :duration: 2h 19m
+  :age_limit: '16'
+  :rating: 8.8
+  :votes: 2000000
+- :title: Початок
+  :year: '2010'
+  :duration: 2h 28m
+  :age_limit: '16'
+  :rating: 8.8
+  :votes: 2000000
+- :title: Матриця
+  :year: '1999'
+  :duration: 2h 16m
+  :age_limit: '16'
+  :rating: 8.7
+  :votes: 2000000
+- :title: Сім самураїв
+  :year: '1954'
+  :duration: 3h 27m
+  :age_limit: '16'
+  :rating: 8.6
+  :votes: 361000
+- :title: Інтерстеллар
+  :year: '2014'
+  :duration: 2h 49m
+  :age_limit: '16'
+  :rating: 8.7
+  :votes: 2000000
+- :title: 'Термінатор 2: Судний день'
+  :year: '1991'
+  :duration: 2h 17m
+  :age_limit: '16'
+  :rating: 8.6
+  :votes: 1000000
+:total_items: 7
+:average_rating: 8.742857142857144

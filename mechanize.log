@@ -1,0 +1,289 @@
+# Logfile created on 2023-11-27 06:27:31 +0200 by logger.rb/v1.5.3
+I, [2023-11-27T06:27:31.918287 #31476]  INFO -- : Net::HTTP::Get: /?hl=uk
+I, [2023-11-27T06:27:32.476004 #31476]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-11-27T06:27:32.519177 #31476]  INFO -- : form encoding: windows-1251
+I, [2023-11-27T06:27:32.522851 #31476]  INFO -- : Net::HTTP::Get: /search?ie=windows-1251&hl=uk&source=hp&biw=&bih=&q=&iflsig=AO6bgOgAAAAAZWQoxm8eme2LBLQYzC_lrkeTc5iWPBSN&gbv=1
+I, [2023-11-27T06:27:32.599601 #31476]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+I, [2023-11-27T06:27:32.601182 #31476]  INFO -- : follow redirect to: https://www.google.com/webhp?ie=windows-1251&hl=uk&source=hp&iflsig=AO6bgOgAAAAAZWQoxm8eme2LBLQYzC_lrkeTc5iWPBSN&gbv=1
+I, [2023-11-27T06:27:32.602812 #31476]  INFO -- : Net::HTTP::Get: /webhp?ie=windows-1251&hl=uk&source=hp&iflsig=AO6bgOgAAAAAZWQoxm8eme2LBLQYzC_lrkeTc5iWPBSN&gbv=1
+I, [2023-11-27T06:27:32.693710 #31476]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-11-27T06:35:00.971003 #3252]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-11-27T06:35:01.774390 #3252]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-11-27T06:35:01.920698 #3252]  INFO -- : form encoding: utf-8
+I, [2023-11-27T06:35:01.921409 #3252]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-11-27T06:35:02.152102 #3252]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-11-27T06:38:15.850188 #20424]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-11-27T06:38:16.717598 #20424]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-11-27T06:38:16.864308 #20424]  INFO -- : form encoding: utf-8
+I, [2023-11-27T06:38:16.865028 #20424]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-11-27T06:38:17.085575 #20424]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-01T23:10:46.641760 #12556]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-01T23:10:47.495486 #12556]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-01T23:10:47.700919 #12556]  INFO -- : form encoding: utf-8
+I, [2023-12-01T23:10:47.701836 #12556]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-01T23:10:47.910957 #12556]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:25:47.386143 #21836]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:25:48.058011 #21836]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:25:48.256652 #21836]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:25:48.257457 #21836]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:25:48.466837 #21836]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:29:18.958477 #16532]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:29:19.621894 #16532]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:29:19.788920 #16532]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:29:19.789704 #16532]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:29:19.982854 #16532]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:30:30.048734 #40496]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:30:30.738542 #40496]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:30:30.899037 #40496]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:30:30.899820 #40496]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:30:31.072573 #40496]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:31:23.590291 #35596]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:31:24.246911 #35596]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:31:24.297094 #35596]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:31:24.297901 #35596]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:31:24.514260 #35596]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:34:52.796058 #33552]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:34:53.423771 #33552]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:34:53.576456 #33552]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:34:53.577225 #33552]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:34:53.741842 #33552]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:36:25.866997 #25396]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:36:26.454154 #25396]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:36:26.621507 #25396]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:36:26.622338 #25396]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:36:26.851816 #25396]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:42:28.249269 #41292]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:42:28.882944 #41292]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:42:29.043924 #41292]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:42:29.044571 #41292]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:42:29.231922 #41292]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:43:34.367667 #30492]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:43:35.001071 #30492]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:43:35.178020 #30492]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:43:35.179601 #30492]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:43:35.471952 #30492]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:44:22.177216 #39148]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:44:22.738572 #39148]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:44:22.881597 #39148]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:44:22.882387 #39148]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:44:23.054994 #39148]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:58:49.696171 #6304]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:58:50.357907 #6304]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:58:50.536582 #6304]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:58:50.537321 #6304]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:58:50.722696 #6304]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:59:46.955714 #11376]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T07:59:47.599019 #11376]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T07:59:47.761873 #11376]  INFO -- : form encoding: utf-8
+I, [2023-12-04T07:59:47.762653 #11376]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T07:59:47.932162 #11376]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:01:57.833140 #33752]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:01:58.449864 #33752]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:01:58.623523 #33752]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:01:58.624300 #33752]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:01:58.780882 #33752]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:02:37.850642 #40224]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:02:38.396714 #40224]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:02:38.564787 #40224]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:02:38.565585 #40224]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:02:38.745810 #40224]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:03:17.185328 #41160]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:03:17.825518 #41160]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:03:17.990272 #41160]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:03:17.991061 #41160]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:03:18.159545 #41160]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:08:27.668146 #41672]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:08:28.326269 #41672]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:08:28.609079 #41672]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:08:28.610128 #41672]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:08:28.833320 #41672]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:16:57.712201 #31884]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:16:58.388428 #31884]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:16:58.575850 #31884]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:16:58.576858 #31884]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:16:58.746358 #31884]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:21:49.770528 #32464]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:21:50.376185 #32464]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:21:50.650728 #32464]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:21:50.652004 #32464]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:21:50.949020 #32464]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:22:35.470416 #16916]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:22:36.135874 #16916]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:22:36.324667 #16916]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:22:36.325788 #16916]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:22:36.622771 #16916]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:29:02.079109 #21252]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:29:02.764028 #21252]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:29:02.921405 #21252]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:29:02.922113 #21252]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:29:03.126963 #21252]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:30:03.306569 #25940]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:30:03.965392 #25940]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:30:04.127261 #25940]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:30:04.127926 #25940]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:30:04.296331 #25940]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:30:34.972645 #29720]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:30:35.546973 #29720]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:30:35.708007 #29720]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:30:35.708828 #29720]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:30:35.879663 #29720]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:31:35.869578 #19892]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:31:36.487885 #19892]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:31:36.662325 #19892]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:31:36.663043 #19892]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:31:36.850214 #19892]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:33:43.093102 #38472]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:33:43.750672 #38472]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:33:43.902911 #38472]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:33:43.903715 #38472]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:33:44.101658 #38472]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:39:45.591648 #11592]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:39:46.160505 #11592]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:39:46.305475 #11592]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:39:46.306282 #11592]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:39:46.509433 #11592]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:41:54.855505 #21068]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:41:55.487025 #21068]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:41:55.643552 #21068]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:41:55.644382 #21068]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:41:55.831167 #21068]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:42:55.604782 #35748]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:42:56.209869 #35748]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:42:56.369627 #35748]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:42:56.370362 #35748]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:42:56.573696 #35748]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:48:18.290314 #22024]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T08:48:18.918257 #22024]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T08:48:19.080305 #22024]  INFO -- : form encoding: utf-8
+I, [2023-12-04T08:48:19.081143 #22024]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T08:48:19.247357 #22024]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:05:13.786599 #39736]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T09:05:14.530156 #39736]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:05:14.692158 #39736]  INFO -- : form encoding: utf-8
+I, [2023-12-04T09:05:14.692817 #39736]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T09:05:14.969795 #39736]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:08:15.008057 #29904]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T09:08:15.624291 #29904]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:08:15.815951 #29904]  INFO -- : form encoding: utf-8
+I, [2023-12-04T09:08:15.816736 #29904]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T09:08:15.989300 #29904]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:08:56.826533 #41104]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T09:08:57.411547 #41104]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:08:57.570083 #41104]  INFO -- : form encoding: utf-8
+I, [2023-12-04T09:08:57.570905 #41104]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T09:08:57.775524 #41104]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:51:09.741778 #412]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T09:51:10.374021 #412]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:51:10.556807 #412]  INFO -- : form encoding: utf-8
+I, [2023-12-04T09:51:10.557521 #412]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T09:51:10.768882 #412]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:57:52.384328 #11716]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T09:57:53.088044 #11716]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T09:57:53.252107 #11716]  INFO -- : form encoding: utf-8
+I, [2023-12-04T09:57:53.252924 #11716]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T09:57:53.431138 #11716]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:03:08.403775 #13840]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:03:09.075812 #13840]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:03:09.234262 #13840]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:03:09.234985 #13840]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:03:09.405815 #13840]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:04:03.809789 #12212]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:04:04.373170 #12212]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:04:04.549146 #12212]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:04:04.549906 #12212]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:04:04.719213 #12212]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:22:43.090738 #34216]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:22:43.742012 #34216]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:22:43.901040 #34216]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:22:43.901873 #34216]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:22:44.123033 #34216]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:23:22.064547 #23884]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:23:22.873522 #23884]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:23:23.031284 #23884]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:23:23.031993 #23884]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:23:23.238609 #23884]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:24:47.364229 #16640]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:24:47.983232 #16640]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:24:48.043255 #16640]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:24:48.044460 #16640]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:24:48.216390 #16640]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:26:06.618983 #23600]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:26:07.238605 #23600]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:26:07.288169 #23600]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:26:07.288960 #23600]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:26:07.461060 #23600]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:27:22.478637 #32568]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:27:23.128617 #32568]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:27:23.307184 #32568]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:27:23.307981 #32568]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:27:23.589457 #32568]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:30:40.576026 #10536]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:30:41.228729 #10536]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:30:41.277676 #10536]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:30:41.278495 #10536]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:30:41.464603 #10536]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:31:01.959232 #22968]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:31:02.497460 #22968]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:31:02.659256 #22968]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:31:02.660023 #22968]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:31:02.841451 #22968]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:31:51.326306 #35432]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:31:52.009722 #35432]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:31:52.171661 #35432]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:31:52.172455 #35432]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:31:52.341902 #35432]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:33:43.225989 #15684]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:33:43.841336 #15684]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:33:44.020054 #15684]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:33:44.020807 #15684]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:33:44.188966 #15684]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:35:18.971705 #41056]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:35:19.589779 #41056]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:35:19.752166 #41056]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:35:19.752996 #41056]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:35:19.952914 #41056]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:35:59.189597 #31432]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:35:59.755030 #31432]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:35:59.935204 #31432]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:35:59.935878 #31432]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:36:00.148987 #31432]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:39:16.267040 #35580]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:39:16.934615 #35580]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:39:17.093760 #35580]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:39:17.094570 #35580]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:39:17.295611 #35580]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:42:14.368972 #14696]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:42:15.041066 #14696]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:42:15.104674 #14696]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:42:15.105435 #14696]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:42:15.278446 #14696]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:42:54.333005 #20760]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:42:54.889273 #20760]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:42:55.048288 #20760]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:42:55.049393 #20760]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:42:55.216210 #20760]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:45:27.149469 #24340]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:45:27.825405 #24340]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:45:28.017415 #24340]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:45:28.018146 #24340]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:45:28.200391 #24340]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:46:18.712004 #32816]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:46:19.290636 #32816]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:46:19.450095 #32816]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:46:19.450887 #32816]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:46:19.623806 #32816]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:50:32.245270 #22256]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:50:33.184730 #22256]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:50:33.364471 #22256]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:50:33.365255 #22256]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:50:33.575754 #22256]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:52:01.001632 #32904]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:52:01.685139 #32904]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:52:01.848821 #32904]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:52:01.849620 #32904]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:52:02.062663 #32904]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:52:36.269078 #21604]  INFO -- : Net::HTTP::Get: /ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.imdb.com%2Fregistration%2Fap-signin-handler%2Fimdb_us&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&siteState=eyJvcGVuaWQuYXNzb2NfaGFuZGxlIjoiaW1kYl91cyIsInJlZGlyZWN0VG8iOiJodHRwczovL3d3dy5pbWRiLmNvbS9jaGFydC90b3AvP3JlZl89bG9naW4ifQ&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&tag=imdbtag_reg-20
+I, [2023-12-04T10:52:36.840309 #21604]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+I, [2023-12-04T10:52:36.998818 #21604]  INFO -- : form encoding: utf-8
+I, [2023-12-04T10:52:36.999532 #21604]  INFO -- : Net::HTTP::Post: /ap/signin
+I, [2023-12-04T10:52:37.169240 #21604]  INFO -- : status: Net::HTTPOK 1.1 200 OK

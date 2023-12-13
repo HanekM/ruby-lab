@@ -1,0 +1,15 @@
+Cart contents:
+----------------------------------------
+Title: Втеча з Шоушенка; Year: 1994; Duration: 2h 22m; Age_limit: R; Rating: 9.3; Votes: 2000000; 
+Title: Хрещений батько; Year: 1972; Duration: 2h 55m; Age_limit: R; Rating: 9.2; Votes: 2000000; 
+Title: Хрещений батько 2; Year: 1974; Duration: 3h 22m; Age_limit: R; Rating: 9.0; Votes: 1000000; 
+Title: Славні хлопці; Year: 1990; Duration: 2h 25m; Age_limit: R; Rating: 8.7; Votes: 1000000; 
+Title: Пролітаючи над гніздом зозулі; Year: 1975; Duration: 2h 13m; Age_limit: R; Rating: 8.7; Votes: 1000000; 
+Title: Сім; Year: 1995; Duration: 2h 7m; Age_limit: R; Rating: 8.6; Votes: 1000000; 
+Title: Мовчання ягнят; Year: 1991; Duration: 1h 58m; Age_limit: R; Rating: 8.6; Votes: 1000000; 
+Title: Врятувати рядового Раяна; Year: 1998; Duration: 2h 49m; Age_limit: R; Rating: 8.6; Votes: 1000000; 
+Title: Місто Бога; Year: 2002; Duration: 2h 10m; Age_limit: R; Rating: 8.6; Votes: 788000; 
+Title: Зелена миля; Year: 1999; Duration: 3h 9m; Age_limit: R; Rating: 8.6; Votes: 1000000; 
+----------------------------------------
+Total items: 10
+Average rating: 8.79
